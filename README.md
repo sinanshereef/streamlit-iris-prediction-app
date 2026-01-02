@@ -3,10 +3,10 @@
 A Streamlit + Machine Learning application for dataset analysis and prediction.
 
 ## 🔗 Live App (Demo)
-(Will be added after deployment)
+(https://app-iris-prediction-app-v4aaze4fqwskk9h2dbkd3m.streamlit.app)
 
 ## 📂 GitHub Repository
-(Will be added after deployment)
+(https://github.com/sinanshereef/streamlit-iris-prediction-app)
 
 ## 🚀 Features
 - Upload CSV dataset
