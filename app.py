@@ -6,7 +6,6 @@ import seaborn as sns
 import plotly.express as px
 import numpy as np
 import pandas as pd
-from IPython.core.pylabtools import figsize
 
 from train_models import train_model
 st.set_page_config(page_title='Iris prediction',layout="wide")
@@ -35,7 +34,6 @@ if file:
     sns.heatmap(df.corr(numeric_only=True),annot=True,ax=ax,cmap='coolwarm',square=True)
     st.pyplot(fig,use_container_width=False)
 
-    st.subheader('Pie chart')
     numeric_columns=df.select_dtypes(include=np.number).columns
     if len(numeric_columns)>=2:
         st.subheader('Interactive Graph')
